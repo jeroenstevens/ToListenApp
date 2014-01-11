@@ -1,0 +1,13 @@
+PODS:
+  - MGBox2 (2.0.0)
+  - PKRevealController (2.0.6)
+
+DEPENDENCIES:
+  - MGBox2 (~> 2.0.0)
+  - PKRevealController
+
+SPEC CHECKSUMS:
+  MGBox2: 7c09e36c2271f9af16fdb5141a0ca554ecee4d8d
+  PKRevealController: 883287432cecf4cda037184eb822548b9713f8c2
+
+COCOAPODS: 0.29.0

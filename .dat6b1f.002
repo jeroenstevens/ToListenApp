@@ -1,0 +1,855 @@
+
+exit
+@cell.fetch_top_artists
+result(@data)[:artists][:artist][0]
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+Fetch.new
+@fetch = Fetch.new
+@fetch.top_artists
+Fetch.top_artists
+Fetch.top_artists
+reload!
+exit
+@fetch = Fetch.new
+@fetch.top_artists
+exit
+@fetch.top_artists
+@fetch = Fetch.new
+@fetch.top_artists
+@url
+url
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+@url = lastfm_api_endpoint + "&method=" + method
+@url
+BW::HTTP.get(@url) do |response|
+BW::JSON.parse(response.to_s)
+end
+@fetch = Fethc.new
+@fetch = Fetch.new
+@fetch.top_artists
+@fetch = Fetch.new
+@fetch.top_artsits
+@fetch.top_artists
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+@url = lastfm_api_endpoint + "&method=" + method
+@url
+@url
+BW::HTTP.get(@url)
+BW::HTTP.get(@url) { |response| @people  = BW::JSON.parse(response.body.to_str) }
+@people
+BW::HTTP.get(@url) { |response| @people  = BW::JSON.parse(response.body.to_str) }
+BW::HTTP.get(@url) { |response| @people  = BW::JSON.parse(response) }
+@fetch = Fetch.new
+data = @fetch.top_artists
+exit
+@fetch = Fetch.new
+@fetch.top_artists
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+@url = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(@url) { |response| data = BW::JSON.parse(response) }
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+@url = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(@url) { |response| data = BW::JSON.parse(response.to_s) }
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+@url = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(@url) { |response| data = BW::JSON.parse(response..body.to_s) }
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+@url = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(@url) { |response| data = BW::JSON.parse(response.body.to_s) }
+data
+p data
+BW::HTTP.get(@url) { |response| data = BW::JSON.parse(response.body.to_s) }
+exit
+@fetch = Fetch.new
+@fetch = Fetch.new
+@fetch.top_artists
+URL = "hoi"
+url
+URL
+exit
+@fetch = Fetch.new
+@fetch = Fetch.new
+data = @fetch.top_artists
+exit
+@fetch = Fetch.new
+@fetch.top_artists
+data = @fetch.top_artists
+data
+exit
+exit
+exit
+exit
+exit
+exit
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+URL = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(URL) do |response|
+BW::JSON.parse(response.body.to_s) do |data|
+data
+end
+end
+data
+BW::HTTP.get(URL) do |response|
+BW::JSON.parse(response.body.to_s) do |data|
+@data = data
+end
+end
+@data
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+fetch
+@fetch = Fetch.new
+@fetch.top_artists
+@fetch.data
+@data = @fetch.data
+@data.artists
+@data.artist
+@data["artist"]
+@data["artists"]
+@data["artists"]
+@data["artists"]["artist"]
+@data["artists"]["artist"]
+@data["artists"]["artist"].each { |artist| artist["name"] }
+@data["artists"]["artist"].each { |artist| artist["name"] }
+@data["artists"]["artist"].each { |i,artist| artist["name"] }
+@data["artists"]["artist"].each { |i,artist| artist[i]["name"] }
+@data["artists"]["artist"].each { |artist| artist["name"] }
+@data["artists"]["artist"][0]["name"]
+@data.each { |data| p data }
+@data.each { |data| p data["artists"] }
+@data.each { |data| p data[0]["artists"] }
+@data.each { |data| p data[0]["artists"]["artist"][data] }
+@data.each { |data| p data[0]["artists"]["artist"] }
+@data.each { |data| p ["artists"]["artist"] }
+@data.each { |data| p ["artists"] }
+@data.each { |data| p ["artists"][data] }
+@data.each { |i| p ["artists"][i] }
+@data.each { |i| p ["artists"] }
+@data
+@data.each
+@data.each { |i| p ["artists"] }
+@data.each { |i| p ["artist"] }
+rake
+exit
+exit
+@fetch
+@fetch = Fetch.new
+@fetch.data
+@fetch.top_artsits
+@fetch.top_artists
+@fetch.result
+@fetch.data
+@data = @fetch.data
+@data["artists"]
+@data["artists"]
+@data["artists"]
+for artist in @data["artists"]
+p self
+end
+@data
+@data["artists"]
+@data["artists"]
+@data["artists"]
+@data["artists"]
+"@att"
+"@attr"
+@data["artists"]
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+URL = lastfm_api_endpoint + "&method=" + method
+json = JSONParser.parse_from_url(URL)
+begin
+json = JSONParser.parse_from_url(URL)
+rescue RuntimeError => e
+presentError e.message
+end
+URL
+json = nil
+json = JSONParser.parse_from_url(URL)
+require "bubble-wrap"
+@fetch = Fetch.top_artists
+@fetch = Fetch.new
+@fetch.top_artists
+@data = @fetch.top_artists
+@data
+exit
+@data
+@data
+exit
+exit
+exit
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+URL = lastfm_api_endpoint + "&method=" + method
+def top_artists
+BW::HTTP.get(URL) do |response|
+@data = BW::JSON.parse(response.body.to_s)
+end
+end
+@fetch = Fetch.new
+top_artists
+@data
+@data
+@data.artists
+@data[:artists]
+@data[:artists][:artist]
+@data[:artists][:artist].each { |artist| artist[:name] }
+@data[:artists][:artist].each { |artist| p artist[:name] }
+exit
+exit
+exit
+exit
+exit
+exit
+@window.subviews
+@window.subviews[0]
+self.subviews
+self.subviews
+exit
+exit
+exit
+exit
+self
+self.subviews
+self.subviews[0]
+this.subviews[0]
+def add_artist
+p "add_artist"
+artist_button = UIButton.buttonWithType(UIButtonTypeCustom)
+artist_button.backgroundColor = UIColor.blueColor
+artist_button.setTitle("artistName", forState:UIControlStateNormal)
+artist_button.sizeToFit
+last_view = @window.subviews[0]
+p last_view
+artist_button.frame = CGRect.new(
+[last_view.frame.origin.x,
+last_view.frame.origin.y + last_view.frame.size.height + 10],
+last_view.frame.size)
+p artist_button.frame
+@window.addSubview(artist_button, atIndex:0)
+end
+artist_button
+def add_artist
+p "add_artist"
+@artist_button = UIButton.buttonWithType(UIButtonTypeCustom)
+@artist_button.backgroundColor = UIColor.blueColor
+@artist_button.setTitle("artistName", forState:UIControlStateNormal)
+@artist_button.sizeToFit
+last_view = @window.subviews[0]
+p last_view
+@artist_button.frame = CGRect.new(
+[last_view.frame.origin.x,
+last_view.frame.origin.y + last_view.frame.size.height + 10],
+last_view.frame.size)
+@window.addSubview(@artist_button, atIndex:0)
+end
+@artist_button
+p @artist_button
+p @artist_button.frame
+p @artist_button.backgroundColor
+exit
+UIScreen.mainScreen.bounds
+UIScreen.mainScreen
+UIScreen.mainScreen.size
+UIWindow
+self.frame
+self.subviews
+exit
+1.5times { |i| p i }
+1..5times { |i| p i }
+1..5.times { |i| p i }
+1..5.times { |i| p i+i }
+def add_artist
+@count = @count + 1
+end
+add_artist
+@count = 1
+def add_artist
+@count = @count + 1
+end
+add_artist
+add_artist
+add_artist
+add_artist
+add_artist
+add_artist
+add_artist
+exit
+self
+self.view
+self.views
+self
+self.subviews
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+UIColor.redcolor
+textColor = UIColor.redcolor
+textColor = UIColor.redColor
+UIColor.redColor
+label.textColor = UIColor.redColor
+self.textColor = UIColor.redColor
+self.textColor = UIColor.redColor
+self.textColor = UIColor.redColor
+exit
+exit
+self
+self
+self.title
+self.tabBarItem
+tree
+exit
+exit
+exit
+exit
+self.collectionView
+self.collectionViewLayout
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20,0,20,0)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20,0,20,10)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20,10,20,10)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20,0,20,0)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20,10,20,10)
+self = self.collectionViewLayout
+this = self.collectionViewLayout
+this.headerReferenceSize = CGSizeMake(0,20)
+this.headerReferenceSize = CGSizeMake(0,25)
+this.itemSize = CGSizeMake(20,20)
+this.itemSize = CGSizeMake(30,30)
+this.itemSize = CGSizeMake(50,50)
+this.itemSize = CGSizeMake(60,60)
+this.itemSize = CGSizeMake(90,90)
+self.backgroundColor = UIColor.blueColor
+self.drawRect(20,20)
+self.width = 20
+self.height = 20
+self.size(20,20)
+self.size = (20,20)
+self.size = [20,20]
+self.size = [20,50]
+self.size = [90,90]
+self.size = [90,100]
+self.fitToSize
+self.sizeToFit
+this.sizetoFit
+this.sizeToFit
+self.sizeToFit
+self.systemLayoutSizeFittingSize
+exit
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20, 0, 20, 0)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20, 0, 20, 0)
+self.width = 20
+self.widht = 50
+self.width = 50
+self.width = 90
+self.width = 80
+self.collectionViewLayout.itemSize = CGSizeMak(20, 0)
+self.collectionViewLayout.itemSize = CGSizeMake(20, 0)
+self.collectionViewLayout.itemSize = CGSizeMake(20, 20)
+self.collectionViewLayout.itemSize = CGSizeMake(50, 50)
+self.collectionViewLayout.itemSize = CGSizeMake(50, 600)
+self.collectionViewLayout.itemSize = CGSizeMake(90, 90)
+self.collectionViewLayout.itemSize = CGSizeMake(100, 100)
+self.collectionViewLayout.itemSize = CGSizeMake(120, 120)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 0)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(0, 5, 0, 5)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(0, 10, 0, 10)
+exit
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20, 0, 20, 0)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20, 0, 20, 0)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20, 10, 20, 10)
+self.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20, 1, 20, 1)
+exit
+true
+tree
+tree
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+self.navigationController
+cd
+self
+self.navigationController
+self
+self
+self
+exit
+exit
+exit
+exit
+exit
+UIActionSheet.alloc.initWithTitle("Options",
+delegate: self,
+cancelButtonTitle: "Cancel",
+destructiveButtonTitle: nil,
+otherButtonTitles: "Test 1", "Test 2", nil).showInView(view)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(view)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options",delegate: self,cancelButtonTitle: "Cancel",destructiveButtonTitle: nil,otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+exit
+this = #<UITableView:0x10b1f200>
+#<UITableView:0x10b1f200>
+<UITableView:0x10b1f200>
+this = <UITableView:0x10b1f200>
+this = UITableView:0x10b1f200
+this = UITableView:0x10b1f200
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+UIActionSheet.alloc.initWithTitle("Options",
+delegate: self,
+cancelButtonTitle: "Cancel",
+destructiveButtonTitle: nil,
+otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+d
+UIActionSheet.alloc.initWithTitle("Options",
+delegate: self,
+cancelButtonTitle: "Cancel",
+destructiveButtonTitle: nil,
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(view)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(SideMenuController)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(TopArtistController)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(TopArtistController.view)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(TopArtistController)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView()
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showFromToolBar(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showFromToolbar(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showFromRect([[100,100],[200,50])
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showFromRect([[100,100],[200,50]])
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showFromRect([[100,100],[200,50]], inView:self, animated:true)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showFromRect([[100,100],[200,50]], inView:self, animated:true)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showFromRect([[100,100],[250,50]], inView:self, animated:true)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showFromRect([[100,100],[200,50]], inView:self, animated:true)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showFromRect([[100,100],[200,50]], inView:self, animated:true)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", nil).showFromRect([[100,100],[200,50]], inView:self, animated:true)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", "Test 3", Test 4", "Test 5", nil).showFromRect([[100,100],[200,50]], inView:self, animated:true)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles: "Test 1", "Test 2", "Test 3", Test 4", "Test 5", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles:"Test 1", "Test 2", "Test 3", Test 4", "Test 5", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles:"Test 1", "Test 2", nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles:"Test 1", "Test 2", "Test 3",nil).showInView(self)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles:"Test 1", "Test 2", "Test 3", Test 4",nil).showInView(self)
+self.superview
+self.superview.subviews
+self.superview.subviews
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles:"Test 1", "Test 2", nil).showInView(self.superview)
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles:"Test 1", "Test 2", nil).showInView(self.superview)
+self.superview
+UIActionSheet.alloc.initWithTitle("Options", delegate: self, cancelButtonTitle: "Cancel", destructiveButtonTitle: nil, otherButtonTitles:"Test 1", "Test 2", nil).showInView(self.superview)
+exit
+self.view
+self.superview
+self.superview.view
+self.superview.superview
+self.superview.superview
+self.superview.superview.superview
+self.superview.superview.superview.superview
+self.superview.superview.superview.superview.superview
+self.superview.superview.superview.superview.superview.superview
+self.superview.superview.superview.superview.superview.superview.superview
+self.superview.superview.superview.superview.superview.superview.superview.superview
+self.superview.superview.superview.superview.superview.superview.superview.superview.superview
+self
+self.superview
+self.superview.controller
+self.controller
+self.navigationController
+self.superview.navigationController
+self.superview
+self.superview.subviews
+self.subview
+self.subviews
+exit
+exit
+exit
+@fetch = Fetch.new
+@fetch.top_artists
+@fetch.data
+@fetch.data["artists"]["artist"].each { |artist| artist["name"] }
+@fetch.data.count
+@fetch.data
+@fetch.data
+exit
+@fetch = Fetch.new
+@fetch.data
+@fetch.top_artists
+@fetch.data
+@fetch.data.count
+exit
+exit
+exit
+@fetch = Fetch.new
+@fetch.top_artists
+@data = @fetch.top_artists
+@data.count
+@data.artists
+@data[:artists].count
+@data[:artists][:artist].count
+@data[:artists][:artist]
+@data
+@data
+exit
+@fetch = Fetch.new
+@fetch.top_artists[:artists]
+@fetch.top_artists[:artists][:artist][0][:name]
+@fetch.top_artists[:artists][0][:artist][:name]
+exit
+exit
+@fetch = Fetch.new
+@fetch.top_artists
+@data = @fetch.top_artists
+@data["artists"]
+@data
+@recieved_data
+@data
+@received_data
+@data
+@data[@received_data]
+@data.@received_data]
+@data.received_data
+@data
+@data["Vary"
+@data["Vary"]
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+URL = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(URL) { |res| BW::JSON.parse(res.body.to_s) }
+@data = BW::HTTP.get(URL) { |res| BW::JSON.parse(res.body.to_s) }
+@data
+@data
+@data["artists"]
+BW::HTTP.get(URL) { |res| @data = BW::JSON.parse(res.body.to_s) }
+@data
+@data[:artists]
+@data[:artists][:artist][0
+@data[:artists][:artist][0][:name]
+@data
+BW::HTTP.get(URL) { |res| @data = BW::JSON.parse(res.body.to_s) }
+@http = BW::HTTP.get(URL)
+BW::HTTP.get(URL) { |res| @data = BW::JSON.parse(res.body.to_s) }
+@data
+BW::HTTP.get(URL) { |res| @data = BW::JSON.parse(res.body.to_s) }
+def result(data)
+p data
+end
+BW::HTTP.get(URL) { |res| @data = BW::JSON.parse(res.body.to_s) result(@data) }
+result(@data)
+result(@data)[:artists
+result(@data)[:artists][:artist][0]
+BW::HTTP.get(URL) { |res| @data = BW::JSON.parse(res.body.to_s) result(@data) }
+result(@data)[:artists][:artist][0]
+BW::HTTP.get(URL) { |res| @data = BW::JSON.parse(res.body.to_s) }
+exit
+exit
+exit
+BW::HTTP.get(URL)
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+URL = lastfm_api_endpoint + "&method=" + method
+response = BW::HTTP.get(URL)
+BW:JSON.parse(response)
+BW:JSON.parse(response.body)
+BW:JSON.parse(response.body.to_str)
+BW::JSON.parse(response.body.to_s)
+BW::JSON.parse(response)
+BW::JSON.parse(response.to_s)
+BW::JSON.parse(response)
+response
+response.body
+response
+response[body]
+exit
+exit
+@data
+exit
+exit
+exit
+exit
+@fetch = Fetch.new
+@fetch.top_artists[:artists]
+@fetch.result
+@fetch.result[:artists]
+@fetch.result[:artists][:artist]
+@fetch.result[:artists][:artist][0][:name]
+exit
+@fetch = Fetch.new
+@fetch.top_artists
+@fetch.result
+@fetch.result[:artists][:artist][0][:name]
+@fetch.result[:artists][:artist].each { |artist| p artist[:name] }
+exit
+exit
+self.text = 'hoi'
+exit
+@artistName = []
+@artistImage = []
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+url = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(url) do |response|
+@data = BW::JSON.parse(response.body.to_s)
+@data[:artists][:artist].each do |artist|
+@artistName << artist[:name]
+@artistImage << artist[:image][2]["#text"]
+end
+end
+@artistName
+@artistImage
+exit
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+url = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(url) do |response|
+@data = BW::JSON.parse(response.body.to_s)
+@artistName = []
+@artistImage = []
+@data[:artists][:artist].each do |artist|
+@artistName << artist[:name]
+@artistImage << artist[:image][2]["#text"]
+end
+end
+p @artistName
+p @artistImage
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+@artistName = [["hoi"],["doei"]]
+@artistName[1]
+@artistName[1].to_s
+@artistName[1].to_i
+@artistName[1].to_str
+@artistName[1].to_s
+@artistName[1]
+@artistName[1]
+self.text = @artistName[1]
+self.text = @artistName[1].to_s
+self.text = "#{@artistName[1]}"
+"#{@artistName[1]}"
+"#{@artistName}"
+@artistName
+@artistName[1]
+@artistName = [["hoi"],["doei"]]
+@artistName[1]
+@artistName
+"#{@artistName}"
+@artistName
+"#{@artistName[1]}"
+self.text = "#{@artistName[1]}"
+"#{@artistName[1]}"
+self.text = "#{@artistName[1].to_s}"
+self.text = @artistName[1].to_s
+@artistName
+@artistName = ["hoi","doei"]
+self.text = @artistName[1].to_s
+self.text = @artistName[1]
+self.text = @artistName[0]
+exit
+@cell = Cell.new
+@cell.fetch_top_artists
+@artistName
+@cell.data
+@cell
+@cell.fetch_top_artists
+@data = @cell.fetch_top_artists
+@data
+def artist(data)
+data[:artists][:artist].each do |artist|
+@artistName << artist[:name]
+@artistImage << artist[:image][2]["#text"]
+end
+end
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+url = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(url) do |response|
+data = BW::JSON.parse(response.body.to_s).tap do |data|
+artist(data)
+end
+end
+@cell = Cell.new
+@cell = Cell.new
+@cell
+@artistName
+@artistName = []
+@artistImage = []
+def artist(data)
+data[:artists][:artist].each do |artist|
+@artistName << artist[:name]
+@artistImage << artist[:image][2]["#text"]
+end
+end
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+url = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(url) do |response|
+data = BW::JSON.parse(response.body.to_s) do |data|
+artist(data)
+end
+end
+@artistName
+self.subviews
+self.subviews.subviews
+self.subviews.superview
+self.subviews.view
+self.subviews[0]
+self.subviews[0].superview
+self.subviews[0].view
+self.subviews[0].label
+self.subviews[0].sbuview
+self.subviews[0].sbuviews
+self.subviews[0].subview
+self.subviews[0].subviews
+exit
+exit
+exit
+EXIT
+exit
+exit
+def artist()
+@artistName = []
+@artistImage = []
+@data[:artists][:artist].each do |artist|
+@artistName << artist[:name]
+@artistImage << artist[:image][2]["#text"]
+end
+end
+lastfm_api_endpoint = "http://ws.audioscrobbler.com/2.0/?api_key=f90b2e1d432ddfeee9b30524aeedd6d7&format=json"
+method = "chart.gettopartists"
+url = lastfm_api_endpoint + "&method=" + method
+BW::HTTP.get(url) do |response|
+@data = BW::JSON.parse(response.body.to_s)
+artist()
+end
+@artistName
+@Data
+@data
+UILabel.all
+label.all
+UICell.all
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+self
+self.controller
+self.viewController
+self.views
+self.superview
+tree
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+img = UIImage.alloc.initWithData(NSData.alloc.initWithContentsOfURL(NSURL.URLWithString("http://userserve-ak.last.fm/serve/34/32862809.jpg")))
+img = UIImage.alloc.initWithData(NSData.alloc.initWithContentsOfURL(NSURL.URLWithString("http://userserve-ak.last.fm/serve/34/32862809.jpg")))
+self[0[
+self[0]
+self
+self.addSubview(img)
+self.superview
+self.superview.addSubview(img)
+self.view.addSubview(img)
+self.superview
+self.superview.addSubview(img)
+self.addSubview(img)
+self.superview
+self.view
+self.subviews
+img
+self.addSubview(img)
+self.insertSubview(img)
+self.subviews << img
+self.subviews
+collectionView.reloadData
+self
+sef.superview
+self.superview
+self.superview.view
+self.collectionView
+self.superview
+self.collectionView
+self.superview.collectionView
+self.superview
+self.superview.view
+self.superview.superview
+self.superview.superview.superview
+self.superview.superview.superview.superview
+self.superview.superview.superview.superview.superview
+self.superview.superview.superview.superview.superview.superview
+self.superview.superview.superview.superview.superview.superview.superview
+self.superview.superview.superview.superview.superview.superview.superview.superview
+self.superview.superview.superview.superview.superview.superview.superview.superview.reloadData
+self.superview
+self.superview.superview
+self.collectionView
+self.controller
+self.viewController
