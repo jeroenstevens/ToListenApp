@@ -8,7 +8,7 @@ class Sync
     BW::HTTP.get(URL) do |response|
       data = BW::JSON.parse(response.body.to_s)
       delegate.load_data(data)
-      #delegate.view.reloadData
+      delegate.view.reloadData
     end
   end
 
