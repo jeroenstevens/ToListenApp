@@ -35,6 +35,8 @@ class Setup
       @visible = true
     end
 
+    Sync.get(@to_listen.visibleViewController)
+
     UIView.animateWithDuration 0.5, animations: -> {
       @delegate.navigationController.view.frame = destination
     }

@@ -13,4 +13,9 @@ class Cell < UICollectionViewCell
       end
     end
   end
+
+  # #Strikethrough
+  # attributed_text = NSMutableAttributedString.alloc.initWithString("Atributed Text")
+  # attributed_text.addAttribute(NSStrikethroughStyleAttributeName, value: 1, range: [0, attributed_text.length])
+  # label.attributedText = attributed_text
 end
