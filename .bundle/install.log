@@ -53,3 +53,5 @@ I, [2014-01-02T16:09:39.654508 #48168]  INFO -- : 0:  xcodeproj (0.14.1) from /u
 I, [2014-01-02T16:09:39.654760 #48168]  INFO -- : 0:  cocoapods (0.29.0) from /usr/local/rvm/gems/ruby-2.1.0-preview2/specifications/cocoapods-0.29.0.gemspec
 I, [2014-01-02T16:09:39.655005 #48168]  INFO -- : 0:  motion-cocoapods (1.4.0) from /usr/local/rvm/gems/ruby-2.1.0-preview2/specifications/motion-cocoapods-1.4.0.gemspec
 I, [2014-01-02T16:09:39.655260 #48168]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.1.0-preview2/specifications/bundler-1.5.1.gemspec
+I, [2014-01-13T00:38:29.040435 #8159]  INFO -- : 0:  rake (10.1.1) from /usr/local/rvm/gems/ruby-2.1.0-preview2/specifications/rake-10.1.1.gemspec
+I, [2014-01-13T00:38:29.052700 #8159]  INFO -- : 0:  bundler (1.5.1) from /usr/local/rvm/gems/ruby-2.1.0-preview2/specifications/bundler-1.5.1.gemspec
