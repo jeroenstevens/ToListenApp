@@ -1,15 +1,15 @@
 class ToListenController < UITableViewController
-  def init
-    self.tableView.dataSource = self.tableView.delegate = self
-  end
   def viewDidLoad
     super
     setupNavigationBar
     @labels = []
-    @sync = Sync.new
-    @sync.get
-    @sync.result.each {|i| @labels << i['name']}
+    Sync.get(self)
+    #@sync.result.each { |i| @labels << i['name'] }
     tableView.rowHeight = 50
+  end
+
+  def load_data(data)
+    @labels = data
   end
 
   def setupNavigationBar
@@ -23,7 +23,7 @@ class ToListenController < UITableViewController
     @reuseIdentifier ||= "MenuCell"
 
     label = UILabel.alloc.initWithFrame [[10, 10], [150, 30]]
-    label.text = @labels[indexPath.row]
+    label.text = @labels[indexPath.row]['name']
 
     cell = tableView.dequeueReusableCellWithIdentifier(@reuseIdentifier) ||
       UITableViewCell.alloc.initWithStyle(UITableViewCellStyleDefault, reuseIdentifier: @reuseIdentifier)

@@ -3,17 +3,11 @@ class Fetch
   method = "chart.gettopartists"
   URL = lastfm_api_endpoint + "&method=" + method
 
-  def top_artists
+  def self.top_artists(delegate)
     BW::HTTP.get(URL) do |response|
-      @data = BW::JSON.parse(response.body.to_s)
-      result
+      data = BW::JSON.parse(response.body.to_s)
+      delegate.load_data(data)
+      delegate.collectionView.reloadData
     end
-  end
-
-  def result
-    @data
-    # @data[:artists][:artist].each do |artist|
-#       p artist[:name]
-#     end
   end
 end
