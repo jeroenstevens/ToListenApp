@@ -1,5 +1,5 @@
 class ToListenController < UITableViewController
-  CELL_IDENTIFIER = "celllllls"
+  CELL_IDENTIFIER = "cell"
   def viewDidLoad
     super
     setupNavigationBar
