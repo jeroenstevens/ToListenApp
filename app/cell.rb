@@ -4,12 +4,12 @@ class Cell < UICollectionViewCell
   end
 
   def initWithFrame(frame)
-    super.tap do |header|
-      @display_label = UILabel.alloc.initWithFrame(header.bounds).tap do |label|
+    super.tap do |item|
+      @display_label = UILabel.alloc.initWithFrame(item.bounds).tap do |label|
          label.backgroundColor = UIColor.whiteColor
          label.textColor = UIColor.blackColor
          label.textAlignment = NSTextAlignmentCenter
-         header.addSubview(label)
+         item.addSubview(label)
       end
     end
   end

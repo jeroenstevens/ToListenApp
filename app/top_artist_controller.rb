@@ -27,7 +27,7 @@ class TopArtistController < UICollectionViewController
   def collectionView(view, cellForItemAtIndexPath:indexPath)
     view.dequeueReusableCellWithReuseIdentifier(CELL_IDENTIFIER, forIndexPath:indexPath).tap do |cell|
       #img = UIImage.alloc.initWithData(NSData.alloc.initWithContentsOfURL(NSURL.URLWithString(@artists[indexPath.row][:image][2]["#text"])))
-      #cell.contentView.addSubview(img)
+      #cell.addSubview(UIImageView.alloc.initWithImage(img))
       cell.display_string = @artists[indexPath.row][:name]
     end
   end
@@ -39,6 +39,4 @@ class TopArtistController < UICollectionViewController
   def load_data(data)
     @artists = data[:artists][:artist]
   end
-
-  #"http://userserve-ak.last.fm/serve/34/32862809.jpg"
 end

@@ -10,16 +10,12 @@ class Setup
     left_button_item = UIBarButtonItem.alloc.initWithImage(UIImage.imageNamed("icon-menu.png"), style: UIBarButtonItemStyleBordered, target: self, action:'toggleMenuState')
     delegate.navigationItem.setLeftBarButtonItem(left_button_item)
 
-    right_button_item = UIBarButtonItem.alloc.initWithTitle('Add', style:UIBarButtonItemStyleBordered,target: delegate, action: "click_add")
-    delegate.navigationItem.setRightBarButtonItem(right_button_item)
-
     @to_listen = UINavigationController.alloc.initWithRootViewController(ToListenController.alloc.initWithStyle(UITableViewStylePlain))
     @delegate = delegate
   end
 
   def collectionView(delegate)
     delegate.collectionView.registerClass(Cell, forCellWithReuseIdentifier:CELL_IDENTIFIER)
-    #self.collectionView.collectionViewLayout.headerReferenceSize = CGSizeMake(HEADER_WIDTH, HEADER_HEIGHT)
     delegate.collectionView.collectionViewLayout.itemSize = CGSizeMake(ITEM_WIDTH, ITEM_HEIGHT)
     delegate.collectionView.collectionViewLayout.sectionInset = UIEdgeInsetsMake(20, 0, 20, 0)
     delegate.collectionView.backgroundColor = UIColor.scrollViewTexturedBackgroundColor

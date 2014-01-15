@@ -1,4 +1,5 @@
 class ToListenController < UITableViewController
+  CELL_IDENTIFIER = "celllllls"
   def viewDidLoad
     super
     setupNavigationBar
@@ -16,10 +17,9 @@ class ToListenController < UITableViewController
     self.navigationItem.setLeftBarButtonItem(left_button_item)
   end
 #tableView
-  def tableView(tableView, cellForRowAtIndexPath: indexPath)
-    @reuseIdentifier ||= "MenuCell"
+  def tableView(tableView, cellForRowAtIndexPath:indexPath)
 
-    cell = tableView.dequeueReusableCellWithIdentifier(@reuseIdentifier) ||      UITableViewCell.alloc.initWithStyle(UITableViewCellStyleDefault, reuseIdentifier: @reuseIdentifier)
+    cell = tableView.dequeueReusableCellWithIdentifier(CELL_IDENTIFIER) || UITableViewCell.alloc.initWithStyle(UITableViewCellStyleDefault, reuseIdentifier: CELL_IDENTIFIER)
     cell.setSelectionStyle UITableViewCellSelectionStyleGray
 
     attributed_text = NSMutableAttributedString.alloc.initWithString(@artists[indexPath.row]['name']) # Mutable for strikethrough
@@ -52,12 +52,13 @@ class ToListenController < UITableViewController
   def tableView(tableView, commitEditingStyle:editingStyle, forRowAtIndexPath:indexPath)
     if editingStyle == UITableViewCellEditingStyleDelete
       Sync.delete(@artists[indexPath.row])
-      view.deleteRowsAtIndexPaths([indexPath],withRowAnimation:UITableViewRowAnimationMiddle)
+      @artists.delete_at(indexPath.row)
+      view.deleteRowsAtIndexPaths([indexPath],withRowAnimation:UITableViewRowAnimationFade)
     end
   end
 
   def tableView(tableView, titleForDeleteConfirmationButtonForRowAtIndexPath:indexPath)
-    "Delete"
+    '                '
   end
 #actionSheet
   def popActionSheet

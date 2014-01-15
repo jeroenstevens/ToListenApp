@@ -1,8 +1,6 @@
 class Sync
-  #URL = 'http://http://still-cove-3425.herokuapp.com/api/artists'
-
-  URL = 'http://localhost:3000/api/artists'
-  #attr_accessor :data
+  URL = 'http://still-cove-3425.herokuapp.com/api/artists'
+  #URL = 'http://localhost:3000/api/artists'
 
   def self.get(delegate)
     BW::HTTP.get(URL) do |response|
